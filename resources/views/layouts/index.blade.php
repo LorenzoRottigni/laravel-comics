@@ -18,6 +18,8 @@
         @endif
 
         @yield('icons-nav')
+        @yield('lists-section')
+        @yield('footer')
     </main>
 
 </body>

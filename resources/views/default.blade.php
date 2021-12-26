@@ -1,7 +1,5 @@
 @extends('layouts.index')
 
-
-
 @section('header')
     <header>
         <nav class="container-fluid h-100 d-flex px-5 py-3">
@@ -38,13 +36,8 @@
     </header>
 @endsection
 
-
-
 @section('jumbotron')
-    <section id="jumbotron" >
-
-    </section>
-
+    <section id="jumbotron"></section>
 @endsection
 
 @section('cards-section')
@@ -164,30 +157,101 @@
     </section>
 @endsection
 
-
 @section('icons-nav')
-<nav class="icons-nav d-flex align-items-center justify-content-center px-5 py-3 shadow">
-    <ul class="list-unstyled h-100 d-flex align-items-center justify-content-center flex-wrap gap-3 my-0">
-        <li>
-            <img src="{{ asset('/images/buy-comics-digital-comics.png') }}" alt="buy-comics-digital-comics">
-            <h3> DIGITAL COMICS </h3>
-        </li>
-        <li>
-            <img src="{{ asset('/images/buy-comics-merchandise.png') }}" alt="buy-comics-merchandise">
-            <h3> DC MERCHANDISE </h3>
-        </li>
-        <li>
-            <img src="{{ asset('/images/buy-comics-subscriptions.png') }}" alt="buy-comics-subscriptions">
-            <h3> SUBSCRIPTION </h3>
-        </li>
-        <li>
-            <img src="{{ asset('/images/buy-comics-shop-locator.png') }}" alt="">
-            <h3> COMIC SHOP LOCATOR </h3>
-        </li>
-        <li>
-            <img src="{{ asset('/images/buy-dc-power-visa.svg') }}" alt="">
-            <h3> DC POWER VISA </h3>
-        </li>
-    </ul>
-</nav>
+    <nav class="icons-nav d-flex align-items-center justify-content-center px-5 py-3 shadow">
+        <ul class="list-unstyled h-100 d-flex align-items-center justify-content-center flex-wrap gap-3 my-0">
+            <li>
+                <img src="{{ asset('/images/buy-comics-digital-comics.png') }}" alt="buy-comics-digital-comics">
+                <h3> DIGITAL COMICS </h3>
+            </li>
+            <li>
+                <img src="{{ asset('/images/buy-comics-merchandise.png') }}" alt="buy-comics-merchandise">
+                <h3> DC MERCHANDISE </h3>
+            </li>
+            <li>
+                <img src="{{ asset('/images/buy-comics-subscriptions.png') }}" alt="buy-comics-subscriptions">
+                <h3> SUBSCRIPTION </h3>
+            </li>
+            <li>
+                <img src="{{ asset('/images/buy-comics-shop-locator.png') }}" alt="">
+                <h3> COMIC SHOP LOCATOR </h3>
+            </li>
+            <li>
+                <img src="{{ asset('/images/buy-dc-power-visa.svg') }}" alt="">
+                <h3> DC POWER VISA </h3>
+            </li>
+        </ul>
+    </nav>
+@endsection
+
+@section('lists-section')
+    <section id="lists-section" class="container-fluid py-5">
+        <div class="row">
+            <div class="col-2 offset-1">
+                <h3>DC COMICS</h3>
+                <ul class="list-unstyled">
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>TV</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
+                </ul>
+                <h3>SHOP</h3>
+                <ul class="list-unstyled">
+                    <li>Shop DC</li>
+                    <li>Shop DC Collectibles</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <h3>DC</h3>
+                <ul class="list-unstyled">
+                    <li>Term of Use</li>
+                    <li>Privacy policy (new)</li>
+                    <li>Ad Choises</li>
+                    <li>Advertising</li>
+                    <li>Jobs</li>
+                    <li>Subscriptions</li>
+                    <li>Talen Workshop</li>
+                    <li>CPSC Cartificates</li>
+                    <li>Ratings</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <h3>SITES</h3>
+                <ul class="list-unstyled">
+                    <li>DC</li>
+                    <li>MAD Magazine</li>
+                    <li>DC Kids</li>
+                    <li>DC Universe</li>
+                    <li>DC Power Visa</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@section('footer')
+    <footer class="container-fluid py-3">
+        <div class="row">
+            <div class="col-2 offset-1">
+                <button class="btn btn-outline-primary text-white">
+                    SIGN UP NOW
+                </button>
+            </div>
+            <div class="col-4 offset-4 d-flex justify-content-end">
+                <ul class="d-flex align-items-center gap-3 list-unstyled mb-0">
+                    <li class="ml-3"><h5 class="m-0">FOLLOW US</h3></li>
+                    <li class="ml-3"><img src="{{ asset('/images/footer-facebook.png') }}" alt="Facebook"></li>
+                    <li class="ml-3"><img src="{{ asset('/images/footer-twitter.png') }}" alt="Twitter"></li>
+                    <li class="ml-3"><img src="{{ asset('/images/footer-youtube.png') }}" alt="YouTube"></li>
+                    <li class="ml-3"><img src="{{ asset('/images/footer-pinterest.png') }}" alt="Pinterest"></li>
+                    <li class="ml-3"><img src="{{ asset('/images/footer-periscope.png') }}" alt="Periscope"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 @endsection
