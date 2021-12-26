@@ -51,6 +51,73 @@ header .img-container {
   background-color: #1c1c1c;
 }
 
+#comics-cards-section .card {
+  background: transparent;
+}
+
+.icons-nav {
+  background-color: #0381f9;
+}
+
+.icons-nav img {
+  max-width: 30px;
+}
+
+.icons-nav ul li {
+  padding: 1.25rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 14px;
+}
+
+.icons-nav h3 {
+  font-size: 20px;
+  color: white;
+}
+
+#comic-info-section .section-head {
+  height: 75px;
+  background-color: #0381f9;
+}
+
+#comic-info-section .section-head img {
+  transform: translateY(-80%);
+  border: solid 1px white;
+}
+
+#comic-info-section .section-body img {
+  width: 100%;
+}
+
+#comic-info-section .purchase-banner {
+  background-color: #55ba59;
+}
+
+#comic-info-section .section-specs {
+  background-color: #f6f6f6;
+}
+
+#comic-info-section .section-specs table {
+  width: 100%;
+}
+
+#comic-info-section .section-specs table tr {
+  border-bottom: solid 1px lightgray;
+}
+
+#comic-info-section .section-specs table td,
+#comic-info-section .section-specs table th {
+  padding: 1rem;
+  padding-left: 0;
+}
+
+#comic-info-section .section-specs table td span,
+#comic-info-section .section-specs table th span {
+  color: #20acda;
+  font-weight: 550;
+}
+
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

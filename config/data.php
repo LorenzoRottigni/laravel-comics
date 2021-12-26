@@ -51,19 +51,19 @@
   [
     "thumb"=> "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/BMTJWZ_01_300-001_HD_5f5ff2307dcb37.34652945.jpg?itok=VswVjLR8",
     "price"=> "$5.99",
-    "series"=> "Batman=> The Joker War Zone",
+    "series"=> "Batman: The Joker War Zone",
     "type"=> "comic book"
   ],
   [
     "thumb"=> "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/08/cover-v2_5f40314645a734.37285065.png?itok=ImNM2QBY",
     "price"=> "$6.99",
-    "series"=> "Batman=> Three Jokers",
+    "series"=> "Batman: Three Jokers",
     "type"=> "comic book"
   ],
   [
     "thumb"=> "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/10/BMWK_HQ_01_300-001_HD_5f7cb4945e13f6.89501032.jpg?itok=sVwALbUX",
     "price"=> "$4.99",
-    "series"=> "Batman=> White Knight Presents=> Harley Quinn",
+    "series"=> "Batman: White Knight Presents: Harley Quinn",
     "type"=> "comic book"
   ],
   [

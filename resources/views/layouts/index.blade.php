@@ -11,8 +11,14 @@
     @yield('header')
     <main>
         @yield('jumbotron')
-        @yield('cards-section')
+        @if(!$info)
+            @yield('cards-section')
+        @else
+            @yield('comic-info-section')
+        @endif
+
+        @yield('icons-nav')
     </main>
-    
+
 </body>
 </html>

@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +15,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $data = config("comics");
     return view('default', [
-        "comics" => config("data")
+        "comics" =>$data,
+        "info" => false,
+        "comic_data" => $data[0],
     ]);
-})->name="index";
+})->name("index");
+
+Route::get('/comic/{id}', function($id){
+    $data = config("comics");
+    return view('default', [
+        "comic_data" => $data[$id],
+        "comics" => config("comics"),
+        "info" => true
+    ]);
+})->name("layouts.comics_info");
